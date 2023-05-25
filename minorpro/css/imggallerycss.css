@@ -1,0 +1,134 @@
+body,h1,ul,li{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+h1{
+    margin-bottom:3%;
+    margin-left: 10%;
+
+}
+h1::before{
+    content:'';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    animation: animate 4s linear infinite;
+}
+
+body{
+    background-image:url(../back2.jpeg);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: cover;
+}
+section{
+    width: 85%;
+    margin:50px auto; 
+}
+section h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px rgba(0,0, 0,0.5);
+    color: white;
+    font-size: 4em;
+    transition: 0.5s;
+}
+
+.ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: black;
+}
+.ul .li{
+    list-style:none;
+    background-color:;
+    padding:10px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+.ul .li .a{
+    text-decoration: none;
+    color: black;
+}
+.ul :hover{
+    transition: 0.5s;
+    background-color: aliceblue;
+    color: black;
+    border-color:brown;
+}
+.product{
+    margin-top: 2%;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    transition: 0.5s;
+    margin-left:10%;
+}
+.product img{
+    margin-top: 2%;
+    width: 290px;
+    height: 280px;
+    margin-bottom: 2px;
+    border-radius: 4%;
+    border-style: solid;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.product img:hover{
+    transition: 0.3s;
+    color: white;
+    transform: scale(1.2);
+    z-index: 2;
+}
+button{
+    background: transparent;
+    border: none;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-right: 2%;
+  }
+  ul li{
+    display: inline;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding:5px 20px;
+    border:1px solid #fff;
+    transition: 0.09s ease;
+    border-radius: 20px;
+    background-color: burlywood;
+  }
+  ul li a:hover{
+    background-color: white;
+    color: black;
+    background-color: white;
+    color: black;
+  }
+  .ul .li1 .a1{
+    text-decoration: none;
+    color: #fff;
+    padding:5px 20px;
+    border:1px solid #fff;
+    transition: 0.09s ease;
+    border-radius: 20px;
+    background-color: burlywood;
+  }
+  .ul .li .a1:hover{
+    background-color: white;
+    color: black;
+    background-color: white;
+    color: black;
+  }

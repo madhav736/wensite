@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="loginregister.css">
+    <script>
+        function loginpage()
+        {
+            var username=document.getElementById("email").value;
+            var password=document.getElementById("password").value;
+            if( email=='' && password=='' )
+            {
+                alert("Please enter Email and Password !!!");
+                return false;
+            }
+            else if ( email == '')
+            {
+                alert("Please enter Email !!!");
+                return false;
+            }
+            else if ( password == '')
+            {
+                alert("Please enter Email or Password !!!");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <header class="header-color">
+            <div class="leftname">
+                <h2>login</h2>
+            </div>
+            <div class="main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+    </nav>
+    <div class="background"></div>
+        <div class="container">
+                <div class="text-sci">
+            </div>
+            <div class="form-box">
+                <form action="website2.html">
+                    <center>
+                    <h2>Sign-In</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="username"  id="email">
+                        <label for="" id="email">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" id="password" >
+                        <label for="" id="password">Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label for="">
+                            <input type="checkbox">Remember me
+                        </label>
+                        <a href="#">Forget password?</a>
+                    </div>
+                    <a type="submit" id="btn" " href="main home page.html" onclick="return loginpage()">Sign in</a>
+                    <div class="login-register">
+                        <p>Don't have a Account? <a href="2nd register page.html" class="register-link">Sign up</a></p>
+                    </div>
+                    &nbsp;
+                    <div class="social-icon">
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=nn42lhuv0953&utm_content=o1xjx1w"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                 </div>
+                </center>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

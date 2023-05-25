@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pic7.jpg);
+    height:100vh ;
+    background-size:cover ;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding:5px 20px;
+    border:1px solid #fff;
+    transition: 0.09s ease;
+    border-radius: 20px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    background-color: white;
+    color: black;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title h1{
+    color: white;
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color:white;
+    text-decoration: none;
+    transition: 0.6s;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.leftname{
+    float: left;
+    list-style-type:none;
+    margin-top: 25px;
+    margin-left: 2%;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.navbar{
+    text-decoration-line:underline ;
+
+}

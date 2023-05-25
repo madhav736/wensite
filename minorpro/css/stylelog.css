@@ -1,0 +1,201 @@
+*{ padding: 0; margin: 0; box-sizing: border-box;}
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.2)), url('images/welcome_page.jpg');
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: solid indianred;
+    transition: 0.3s linear;
+}
+.menu a:hover:before{
+    width: 90%;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(52, 73, 94);
+    border-radius: 8px;
+    border: 1px solid rgb(174, 182, 191) ;
+}
+.contact a:hover{
+    background: rgb(46, 64, 83);
+    border: 1px solid white;
+}
+.h-welcome{
+    max-width: 650px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.h-welcome h1{
+    font-size: 5em;
+    color:azure;
+}
+.h-welcome a{
+    color: white;
+    border: 1px solid rgb(212, 230, 241 );
+    padding: 10px 20px;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    background-color: rgb(84, 153, 199);
+} 
+.h-welcome a:hover{
+    background: rgb(36, 113, 163 );
+    border: 1px solid white;
+}
+.sections{
+    width: 100%;
+    height: 40vw;
+}
+.flex{
+    display: flex;
+}
+.branches{
+    width: 17vw;
+    height: 12vw;
+    margin: 3% 4%;
+    border-radius: 5px;
+    position: relative;
+}
+.branches:hover{
+    cursor: pointer;
+    padding: 10px;
+    border: 4px solid rgb(109, 198, 236);
+}
+button{
+    padding: 4px;
+    border-radius: 2px;
+    transition: 0.3s;
+    background-color: white;
+}
+button:hover{
+    color: black;
+    border: 1px solid white;
+    background: rgb(145, 198, 232);
+}
+.second_raw , .first_raw{
+    margin: 0% 17%;
+}
+.branches h3{
+    color : white;
+    padding: 16%;
+}
+.heading{
+    padding-top: 2ch;
+    text-align: center;
+    color: rgb(109, 198, 236);
+    font-size: 3ch;
+}
+body{
+    background-color: rgb(28, 37, 52);
+}
+/* LOGIN PAGE STYLING */
+#login_page{
+    border: double;
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(145, 198, 232);
+    background-color: rgb(28, 37, 52);
+    padding: 2ch;
+}
+#login_page h1{
+    color: white;
+    padding: 10% 20%;
+}
+#login_page label{
+    color: rgb(255, 255, 255);
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+.loginsubmit{
+    text-decoration: none;
+    padding: 8px 25px;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid rgb(75, 144, 229);
+    transition: 0.3s;
+    background-color: rgb(145, 198, 232);
+}
+.loginsubmit:hover{
+    color: white;
+    border: 1px solid white;
+    background: rgb(75, 144, 229);
+}
+.submmit{
+    padding-top: 3ch;
+}
+/* ABOUT US STYLING */
+.developersimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 43ch;
+    width: 55ch;
+    border-width: 8px;
+    border-style:ridge;
+    border-color: rgb(174, 182, 191);
+}
+.developersimage:hover{
+    border-color: white;
+}
+.aboutusbio{
+    color: white;
+    padding-top: 2%;
+    padding-left: 19.5%;
+    padding-right: 19.5%;
+}
+.soical-icon{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.soical-icon i{
+    font-size: 40px;
+    color: rgb(174, 182, 191);
+    margin: 50px;
+    transition: .4s;
+}
+.soical-icon i:hover{
+    color: white;
+    transform: scale(1.5);
+    transition: .4s;
+}
